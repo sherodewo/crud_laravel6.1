@@ -44,9 +44,9 @@
                 </a>
                 <ul>
                     <li>
-                        <a href="/kebaya">
+                        <a href="/record">
                             <i class="metismenu-icon">
-                            </i>Kebaya
+                            </i>Record
                         </a>
                     </li>
                 </ul>
