@@ -1,0 +1,20 @@
+#image-preview{
+    display:none;
+    width : 100px;
+    height : 100px;
+}
+#image-preview-front{
+    display:none;
+    width : 100px;
+    height : 100px;
+}
+#image-preview-back{
+    display:none;
+    width : 100px;
+    height : 100px;
+}
+#image-preview-aditional{
+    display:none;
+    width : 100px;
+    height : 100px;
+}
