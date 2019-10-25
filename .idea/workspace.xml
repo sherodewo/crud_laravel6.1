@@ -101,6 +101,7 @@
     <findStrings>
       <find>class</find>
       <find>user</find>
+      <find>laravel</find>
     </findStrings>
     <replaceStrings>
       <replace>record</replace>
@@ -228,6 +229,13 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
     </include_path>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
