@@ -31,13 +31,4 @@ Route::put('user/update/{id}', ['as' => 'user.update', 'uses' => 'Backend\UserCo
 Route::get('user/delete/{id}', ['as' => 'user.delete', 'uses' => 'Backend\UserController@destroy']);
 Route::resource('user','Backend\UserController');
 
-# RecordController
-Route::get('record', ['as' => 'record.index','uses' => 'Backend\RecordController@index']);
-Route::get('record/datatables', ['as' => 'record.datatables', 'uses' => 'Backend\RecordController@dataTables']);
-Route::get('record/show/{id}', ['as' => 'record.show', 'uses' => 'Backend\RecordController@show']);
-Route::get('record/create', ['as' => 'record.create', 'uses' => 'Backend\RecordController@create']);
-Route::post('record/create', ['as' => 'record.store', 'uses' => 'Backend\RecordController@store']);
-Route::get('record/edit/{id}', ['as' => 'record.edit', 'uses' => 'Backend\RecordController@edit']);
-Route::put('record/update/{id}', ['as' => 'record.update', 'uses' => 'Backend\RecordController@update']);
-Route::get('record/delete/{id}', ['as' => 'record.delete', 'uses' => 'Backend\RecordController@destroy']);
-Route::resource('record','Backend\RecordController');
+Route::resource('order','Frontend\OrderController');
