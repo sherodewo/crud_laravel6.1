@@ -25,25 +25,24 @@
         <div class="col-md-12 mb-3">
             <p class="text-white mb-2">Pesan Tiket Anda Sekarang !!!</p>
         </div>
-        <div class="card">
+        <form action="{{ route('user.store') }}" method="POST">
+            @csrf
+
+            <div class="card">
             <div class="card-body">
                 <div class="form-row">
                     <div class="form-group col-3">
                         <span class="form1">Dari</span>
-                        <select class="mb-2 form-control-lg form-control">
-                            <option>PASTEUR</option>
-                            <option>DIPATIUKUR</option>
-                            <option>KELAPA GADING</option>
-                            <option>KUNINGAN</option>
+                        <select class="mb-2 form-control-lg form-control" id="dari">
+                            <option value="PASTEUR">PASTEUR</option>
+                            <option value="DU">DIPATI UKUR</option>
                         </select>
                     </div>
                     <div class="form-group col-3">
                         <span class="form1">Ke</span>
-                        <select class="mb-2 form-control-lg form-control">
-                            <option>KUNINGAN</option>
-                            <option>DIPATIUKUR</option>
-                            <option>KELAPA GADING</option>
-                            <option>PASTEUR</option>
+                        <select class="mb-2 form-control-lg form-control" id="destination">
+                            <option></option>
+                        </select>
                         </select>
                     </div>
                     <div class="form-group col-3">
@@ -61,10 +60,13 @@
                     </div>
 
                 </div>
-
-
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                    <button href="#" type="submit" class="btn btn-danger">Submit</button>
+                </div>
             </div>
         </div>
+
+        </form>
         <div class="col-12">
             <p class="text-white mt-3 text-spr-promo">Super Promo </p>
         </div>
@@ -142,7 +144,7 @@
             </div>
             <div class="col-md-6 mt-auto mb-auto  text-center text-md-left py-3">
                 <h3 class="color-primary font-weight-bold">Berpergian bersama ChibiTrans Shuttle</h3>
-                <p class="text-muted">rasakan pengalaman perjalanan yang  menyenangkan dengan DayTrans Shuttle, dapatkan fasilitas - fasilitas berikut ini</p>
+                <p class="text-muted">rasakan pengalaman perjalanan yang  menyenangkan dengan ChibiTrans Shuttle, dapatkan fasilitas - fasilitas berikut ini</p>
             </div>
         </div>
 
@@ -232,6 +234,22 @@
         </div>
     </div>
 </footer>
+<script>
+
+    $('#dari').each(function(){
+        if (this.selected){
+            let from;
+            from = $('#dari').val()
+            if (from == "DU"){
+                $('#destination').val("wew")
+            }
+
+        }
+
+
+    })
+
+</script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

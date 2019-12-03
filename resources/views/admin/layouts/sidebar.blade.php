@@ -44,9 +44,15 @@
                 </a>
                 <ul>
                     <li>
-                        <a href="/kebaya">
+                        <a href="/departing">
                             <i class="metismenu-icon">
-                            </i>Kebaya
+                            </i>Departing City
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/destination">
+                            <i class="metismenu-icon">
+                            </i>Arrival City
                         </a>
                     </li>
                 </ul>
