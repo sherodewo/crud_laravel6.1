@@ -56,5 +56,7 @@ Route::group(['middleware' => 'auth'],function (){
 });
 
 
+Route::get('/order', 'Frontend\FrontController@index')->name('order');
+Route::get('/seat', 'Frontend\FrontController@seat')->name('seat');
+Route::get('/payment', 'Frontend\FrontController@payment')->name('payment');
 
-Route::resource('order','Frontend\OrderController');

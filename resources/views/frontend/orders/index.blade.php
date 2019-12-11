@@ -31,37 +31,44 @@
             <div class="card">
             <div class="card-body">
                 <div class="form-row">
-                    <div class="form-group col-3">
-                        <span class="form1">Dari</span>
+                    <div class="form-group col-4">
+                        <span class="form1">Tanggal Keberangkatan</span>
+                        <input type="date" class="mb-2 form-control-lg form-control">
+                    </div>
+                    <div class="form-group col-4">
+                        <span class="form1">City</span>
                         <select class="mb-2 form-control-lg form-control" id="dari">
                             <option value="PASTEUR">PASTEUR</option>
                             <option value="DU">DIPATI UKUR</option>
                         </select>
+                        </select>
                     </div>
-                    <div class="form-group col-3">
-                        <span class="form1">Ke</span>
+                    <div class="form-group col-4">
+                        <span class="form1">Location</span>
                         <select class="mb-2 form-control-lg form-control" id="destination">
                             <option></option>
                         </select>
                         </select>
                     </div>
-                    <div class="form-group col-3">
-                        <span class="form1">Tanggal Keberangkatan</span>
-                        <input type="date" class="mb-2 form-control-lg form-control">
+                    <div class="form-group col-4">
+                        <span class="form1">Routes</span>
+                        <select class="mb-2 form-control-lg form-control" id="destination">
+                            <option></option>
+                        </select>
+                        </select>
                     </div>
-                    <div class="form-group col-3">
+                    <div class="form-group col-4">
                         <span class="form1">Penumpang</span>
-                        <select class="mb-2 form-control-lg form-control">
+                        <select class="mb-2 form-control-lg form-control" id="destination">
                             <option value=1>1</option>
                             <option value=2>2</option>
-                            <option value=3>3</option>
-                            <option value=4>4</option>
+                        </select>
                         </select>
                     </div>
 
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                    <button href="#" type="submit" class="btn btn-danger">Submit</button>
+                    <a href="/seat" class="btn btn-primary">Submit</a>
                 </div>
             </div>
         </div>
