@@ -198,52 +198,75 @@
                         <div class="option-payment-method" style="height:0%; ">
                             <div id="paymentMethValid" class="alert alert-danger" role="alert" style="display: none;"> </div>
                             <div class="form-group row payment-method " style="vertical-align: middle; background-color: #fff">
-                                <div class="col-md-7 col-form-label">
+                                <div class="col-md-1">
+                                    <input type="radio" name="" id="cc">
+                                </div>
+                                <div class="col-md-6 col-form-label">
                                     <div class="iradio_square-red" aria-checked="false" aria-disabled="false" style="position: relative;"><input id="1" type="radio" class="minimal" name="payMethodRadio" value="1" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
                                     <label for="1" class="label-form"> &nbsp;&nbsp;Credit Card</label>
                                 </div>
                                 <div class="col-md-5">
-                                    <img src="https://www.cititrans.co.id/static/image/online/payment/visa-master.jpg" align="right">
+                                    <img src="https://www.cititrans.co.id/static/image/online/payment/visa-master.jpg" align="right" width="100px">
                                 </div>
-                            </div><br><div class="form-group row payment-method " style="vertical-align: middle; background-color: #fff">
-                                <div class="col-md-7 col-form-label">
+                            </div><br>
+                            <div class="form-group row payment-method " style="vertical-align: middle; background-color: #fff">
+                                <div class="col-md-1">
+                                    <input type="radio" name="" id="bca">
+                                </div>
+                                <div class="col-md-6 col-form-label">
                                     <div class="iradio_square-red" aria-checked="false" aria-disabled="false" style="position: relative;"><input id="6" type="radio" class="minimal" name="payMethodRadio" value="6" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
                                     <label for="6" class="label-form"> &nbsp;&nbsp;BCA Virtual Account</label>
                                 </div>
                                 <div class="col-md-5">
-                                    <img src="https://www.cititrans.co.id/static/image/online/payment/bca-va.png" align="right">
+                                    <img src="https://www.cititrans.co.id/static/image/online/payment/bca-va.png" align="right" width="100px">
                                 </div>
-                            </div><br><div class="form-group row payment-method " style="vertical-align: middle; background-color: #fff">
-                                <div class="col-md-7 col-form-label">
+                            </div><br>
+                            <div class="form-group row payment-method " style="vertical-align: middle; background-color: #fff">
+                                <div class="col-md-1">
+                                    <input type="radio" name="" id="go">
+                                </div>
+                                <div class="col-md-6 col-form-label">
                                     <div class="iradio_square-red" aria-checked="false" aria-disabled="false" style="position: relative;"><input id="5" type="radio" class="minimal" name="payMethodRadio" value="5" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
                                     <label for="5" class="label-form"> &nbsp;&nbsp;GO-PAY</label>
                                 </div>
                                 <div class="col-md-5">
-                                    <img src="https://www.cititrans.co.id/static/image/online/payment/gopay.jpg" align="right">
+                                    <img src="https://www.cititrans.co.id/static/image/online/payment/gopay.jpg" align="right" width="100px">
                                 </div>
-                            </div><br><div class="form-group row payment-method " style="vertical-align: middle; background-color: #fff">
-                                <div class="col-md-7 col-form-label">
+                            </div><br>
+                            <div class="form-group row payment-method " style="vertical-align: middle; background-color: #fff">
+                                <div class="col-md-1">
+                                    <input type="radio" name="" id="mandiri">
+                                </div>
+                                <div class="col-md-6 col-form-label">
                                     <div class="iradio_square-red" aria-checked="false" aria-disabled="false" style="position: relative;"><input id="7" type="radio" class="minimal" name="payMethodRadio" value="7" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
                                     <label for="7" class="label-form"> &nbsp;&nbsp;Mandiri Virtual Account</label>
                                 </div>
                                 <div class="col-md-5">
-                                    <img src="https://www.cititrans.co.id/static/image/online/payment/mandiri-va.png" align="right">
+                                    <img src="https://www.cititrans.co.id/static/image/online/payment/mandiri-va.png" align="right" width="100px">
                                 </div>
-                            </div><br><div class="form-group row payment-method " style="vertical-align: middle; background-color: #fff">
-                                <div class="col-md-7 col-form-label">
+                            </div><br>
+                            <div class="form-group row payment-method " style="vertical-align: middle; background-color: #fff">
+                                <div class="col-md-1">
+                                    <input type="radio" name="" id="bni">
+                                </div>
+                                <div class="col-md-6 col-form-label">
                                     <div class="iradio_square-red" aria-checked="false" aria-disabled="false" style="position: relative;"><input id="8" type="radio" class="minimal" name="payMethodRadio" value="8" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
                                     <label for="8" class="label-form"> &nbsp;&nbsp;BNI Virtual Account</label>
                                 </div>
                                 <div class="col-md-5">
-                                    <img src="https://www.cititrans.co.id/static/image/online/payment/bni-va.png" align="right">
+                                    <img src="https://www.cititrans.co.id/static/image/online/payment/bni-va.png" align="right" width="100px" >
                                 </div>
-                            </div><br><div class="form-group row payment-method " style="vertical-align: middle; background-color: #fff">
-                                <div class="col-md-7 col-form-label">
+                            </div><br>
+                            <div class="form-group row payment-method " style="vertical-align: middle; background-color: #fff">
+                                <div class="col-md-1">
+                                    <input type="radio" name="" id="permata">
+                                </div>
+                                <div class="col-md-6 col-form-label">
                                     <div class="iradio_square-red" aria-checked="false" aria-disabled="false" style="position: relative;"><input id="9" type="radio" class="minimal" name="payMethodRadio" value="9" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
                                     <label for="9" class="label-form"> &nbsp;&nbsp;Permata Virtual Account</label>
                                 </div>
                                 <div class="col-md-5">
-                                    <img src="https://www.cititrans.co.id/static/image/online/payment/permata-va.png" align="right">
+                                    <img src="https://www.cititrans.co.id/static/image/online/payment/permata-va.png" align="right" width="100px">
                                 </div>
                             </div><br></div>
                     </div>
@@ -291,8 +314,18 @@
         </div>
     </div>
 </footer>
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+   $('#cc').click(function() {
+   if($('#cc').is(':checked')) { 
+    console.log("wew")
+    $('#bca input[type="radio":checked]').each(function(){
+      $(this).checked = false;  
+  });}
+});
+</script>
 </body>
 </html>
