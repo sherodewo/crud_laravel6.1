@@ -5,7 +5,7 @@
 * Set Env 
     <p>Copy paste from env.example and paste to .env
     <p>and you change your environment and set DB
-* Run "php artisan composer install"
+* Run " composer install"
 * Run "php artisan key:generate"
 * Run "php artisan migrate --seed"
 * Run "php artisan serve"
